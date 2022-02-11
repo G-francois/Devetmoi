@@ -1,0 +1,180 @@
+mai
+{
+    width: 80%;
+    margin: auto;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('Roboto-Regular-webfont.eot');
+    src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Regular-webfont.woff2') format('woff2'),
+         url('Roboto-Regular-webfont.woff') format('woff'),
+         url('Roboto-Regular-webfont.ttf') format('truetype'),
+         url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{		
+	font-family: "Raleway", "Sans serif";
+}
+
+
+/*header debut*/
+header
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo
+{
+	justify-content:space-between;
+	display:flex;
+}
+
+nav
+{
+    display: flex;
+}
+
+.liens
+{
+	display: flex;
+	width: 180px;
+}
+
+
+.liens li
+{
+	list-style-type:none;
+    display: flex;
+}
+
+.Cont
+{
+	padding-left: 15%;
+	color: black;
+}
+
+.Acc
+{
+	color: black;
+}
+
+a
+{
+	text-decoration: none;
+}
+/*header fin*/
+
+/*bannière debut*/
+.banniere
+{
+    background: url(../Images/backgroung_image.jpg);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.banniere h2
+{
+    color: white;
+}
+/*bannière fin*/
+
+/*infos debut*/
+p, .commentaire
+{
+    text-align: center;
+}
+
+.activites
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+#Graphisme
+{
+    text-align: center;
+    width: 25%;
+    margin-right: 28px;
+}
+
+#illustrations
+{
+    text-align: center;
+    width: 25%;
+}
+
+#Strategie
+{
+    text-align: center;
+    width: 25%;
+}
+
+h2
+{
+	width:100%;
+	text-align:center;
+	color:white;
+}
+
+.article, .commentaire
+{
+	text-align:center;
+}
+
+.h3
+{
+	text-align:center;
+    padding: 30px;
+}
+
+#my-icon
+{
+	text-align: center;
+	opacity: 0.7;
+	font-size:xx-large;
+}
+
+.font
+{
+	align-items: center;
+	color: white;
+}
+/*infos fin*/
+
+/*footer debut*/
+
+footer
+{
+	background-color:rgb(91, 52, 158);
+	color:white;
+}
+
+#informations
+{
+	display:inline-block;
+	vertical-align:top;
+	display:flex;
+	justify-content:space-around;
+}
+footer h4
+{
+	text-align:center;
+}
+
+/*footer fin*/
